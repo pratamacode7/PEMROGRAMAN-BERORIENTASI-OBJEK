@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build NilaiMahasiswa",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-Wall",
+                "-Wextra",
+                "src/main.cpp",
+                "src/Mahasiswa.cpp",
+                "src/MataKuliah.cpp",
+                "src/NilaiMK.cpp",
+                "src/KHS.cpp",
+                "src/Pembayaran.cpp",
+                "-Iinclude",
+                "-o",
+                "NilaiMahasiswa.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run NilaiMahasiswa",
+            "type": "shell",
+            "command": ".\\NilaiMahasiswa.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "Build NilaiMahasiswa",
+            "problemMatcher": []
+        }
+    ]
+}

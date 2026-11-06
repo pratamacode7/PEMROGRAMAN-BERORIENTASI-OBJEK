@@ -1,0 +1,20 @@
+========================================
+             LAUNDRY KITA
+========================================
+Nomor struk     : TR001
+ID transaksi    : TR001
+Tanggal         : 06-11-2026
+Nama pelanggan  : 4
+No. HP          : 085845721145
+Layanan         : Express
+Berat           : 10.00 kg
+Harga per kg    : Rp 15000
+Total tagihan   : Rp 150000
+Pembayaran      : Rp 150000
+Kembalian       : Rp 0
+Status bayar    : LUNAS
+Status laundry  : Diproses
+----------------------------------------
+Simpan struk ini. Struk asli wajib
+ditunjukkan saat pengambilan laundry.
+========================================
